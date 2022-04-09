@@ -13,7 +13,7 @@ namespace DashboardApp.Db
 
         public DbConnection()
         {
-            connectionString = "Server=(local); DataBase=NorthwindStore; Integrated Security=true";
+            connectionString = "Server=SANCULANE-PC\\SQLEXPRESS; DataBase=NorthwindStore; Integrated Security=true";
         }
 
         protected SqlConnection GetConnection()
